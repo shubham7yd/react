@@ -1,0 +1,30 @@
+.cardContainer{
+    height: 12rem;
+    width: 16rem;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+}
+
+.cardContainer:hover{
+    background: rgb(240, 240, 240);
+    border: 1px solid #c4c4c4;
+
+}
+
+.cardContainer h4{
+    margin: 0;
+    font-weight: 600;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
